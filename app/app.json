@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Challenge Me",
+    "slug": "challengeme",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "description": "Challenge yourself to make your life fulfilled!",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#faaf08",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon-transparent.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#faaf08"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#faaf08"
+    },
+    "androidNavigationBar": {
+      "visible": false
+    },
+    "android": {
+      "package": "com.janhrdy.chalengeme",
+      "versionCode": 1,
+      "icon": "./assets/icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-transparent.png",
+        "backgroundColor": "#faaf08"
+      },
+      "splash": {
+        "image": "./assets/icon-transparent.png",
+        "resizeMode": "native",
+        "backgroundColor": "#faaf08"
+      },
+      "permissions": []
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
